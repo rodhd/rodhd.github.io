@@ -7,4 +7,9 @@ import '~/styles/index.scss';
 export default function (Vue, { router, head, isClient }) {
   // Set default layout as a global component
   Vue.component('Layout', DefaultLayout)
+
+  head.link.push({
+    rel: 'stylesheet',
+    href: 'https://fonts.googleapis.com/css?family=Open+Sans:300,400,700'
+  })
 }

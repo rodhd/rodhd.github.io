@@ -1,23 +1,15 @@
 <style scoped lang="scss">
 @import "~bulma/sass/utilities/initial-variables";
 .main-content {
-  padding-top: 2rem;
   padding-bottom: 2rem;
-}
-.container {
-  max-width: 60em;
-}
-@media (max-width: $desktop) {
-  .main-content {
-    padding-left: 0.5rem;
-    padding-right: 0.5rem;
-  }
+  padding-right: 0%;
+  padding-left: 0%;
 }
 </style>
 
 
 <template>
-  <div class="container">
+  <div>
     <nav
       class="navbar is-fixed-top is-primary"
       role="navigation"
@@ -52,7 +44,7 @@
       </div>
     </nav>
 
-    <div class="container main-content">
+    <div class="main-content">
       <slot />
     </div>
   </div>
