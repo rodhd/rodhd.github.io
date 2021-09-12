@@ -60,6 +60,9 @@
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
 @Component({
+  metaInfo: {
+    title: 'Home'
+  }
 })
 export default class Index extends Vue {
   language = "en"
