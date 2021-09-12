@@ -25,13 +25,10 @@
     <!-- About -->
     <section class="section" id="about">
       <div class="section-heading">
-        <h3 class="title">{{$page.about[language]}}</h3>
-        <h4 class="subtitle">Product guy, Data Wizard, self-taught Developer</h4>
+        <h3 class="title">{{$t('about')}}</h3>
+        <h4 class="subtitle">{{$t('about_subtitle')}}</h4>
         <div class="container">
-          <p>
-            I am industrial engineer working in software development with over <strong>3 years</strong> of experience. 
-           My passion is combining design, data and technology to develop amazing products and experiences for users.
-          </p>
+          <p v-html="$t('about_text')"/>
         </div>
       </div>
     </section>
@@ -53,12 +50,3 @@ export default class Index extends Vue {
   language = "en"
 }
 </script>
-
-<page-query>
-  query {
-    about: translations(id:"about"){
-      en
-      de
-    }
-  }
-</page-query>

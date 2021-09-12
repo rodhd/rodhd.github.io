@@ -3,10 +3,16 @@
 
 import DefaultLayout from '~/layouts/Default.vue'
 import '~/styles/index.scss';
+import {FontAwesomeIcon, FontAwesomeLayers} from "@fortawesome/vue-fontawesome";
 
-export default function (Vue, { router, head, isClient }) {
+export default function (Vue, { router, head, isClient, appOptions }) {
   // Set default layout as a global component
   Vue.component('Layout', DefaultLayout)
+  Vue.component('FontAwesomeIcon', FontAwesomeIcon);
+  Vue.component('FontAwesomeLayers', FontAwesomeLayers);
+
+  appOptions.i18n.setLocaleMessage('de-de', require('./locales/de-de.json'))
+  appOptions.i18n.setLocaleMessage('en-gb', require('./locales/en-gb.json'))
 
   head.link.push({
     rel: 'stylesheet',

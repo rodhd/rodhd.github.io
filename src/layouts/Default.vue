@@ -39,6 +39,7 @@
           <div class="navbar-end">
             <a class="navbar-item" href="#about">About</a>
             <g-link class="navbar-item" to="/cv/">CV</g-link>
+            <locale-switcher/>
           </div>
         </div>
       </div>
@@ -52,8 +53,10 @@
 
 <script lang="ts">
 import { Component, Vue } from "vue-property-decorator";
+import LocaleSwitcher from "@/components/LocaleSwitcher.vue";
 
 @Component({
+  components: {LocaleSwitcher},
   metaInfo: {
     bodyAttrs: {
       class: "has-navbar-fixed-top",
