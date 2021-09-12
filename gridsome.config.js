@@ -6,6 +6,7 @@
 
 module.exports = {
   siteName: 'Rodrigo Herrera',
+  siteUrl: 'https://rodhd.github.io',
   plugins: [
     {
       use: 'gridsome-plugin-typescript'
