@@ -4,6 +4,7 @@
 import DefaultLayout from '~/layouts/Default.vue'
 import '~/styles/index.scss';
 import {FontAwesomeIcon, FontAwesomeLayers} from "@fortawesome/vue-fontawesome";
+import './styles/fontAwesomeIcons';
 
 export default function (Vue, { router, head, isClient, appOptions }) {
   // Set default layout as a global component

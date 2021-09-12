@@ -1,7 +1,7 @@
 <style lang="scss" scoped>
 .section-heading {
   text-align: center;
-  margin-top: 1em;
+  margin-top: 0.5em;
 }
 .profile-picture {
   border-radius: 50%;
@@ -47,10 +47,54 @@
         </div>
       </div>
     </section>
+    <!-- Links -->
+    <section class="section" id="links" :style="{'text-align': 'center'}">
+      <SocialLinks/>
+    </section>
     <!-- Skills -->
     <section class="section" id="skills">
       <div class="section-heading">
         <h3 class="title">Skills</h3>
+        <div class="columns is-centered">
+          <div class="column is-12-mobile is-3">
+            <SkillCard
+                title="Data Science"
+                :icon="['fa', 'table']"
+                :content="['Bigquery', 'Python', 'Superset', 'Airflow']"/>
+          </div>
+          <div class="column is-12-mobile is-3">
+            <SkillCard
+              title="Frontend"
+              :icon="['fa', 'desktop']"
+              :content="['Vue.js', 'Typescript', 'Bulma', 'Figma']"/>
+          </div>
+          <div class="column is-12-mobile is-3">
+            <SkillCard
+                title="Backend"
+                :icon="['fa', 'code']"
+                :content="['.NET/C#', 'MongoDB', 'Elasticsearch']"/>
+          </div>
+        </div>
+        <div class="columns is-centered">
+          <div class="column is-12-mobile is-3">
+            <SkillCard
+                title="Cloud"
+                :icon="['fa', 'cloud']"
+                :content="['GCP', 'Docker', 'Serverless']"/>
+          </div>
+          <div class="column is-12-mobile is-3">
+            <SkillCard
+                title="Software"
+                :icon="['fa', 'list-alt']"
+                :content="['Excel', 'G-Suite', 'Jira', 'Confluence']"/>
+          </div>
+          <div class="column is-12-mobile is-3">
+            <SkillCard
+                title="Languages"
+                :icon="['fa', 'globe']"
+                :content="[$t('english'), $t('german'), $t('spanish')]"/>
+          </div>
+        </div>
       </div>
       
     </section>
@@ -59,7 +103,10 @@
 
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
+import SkillCard from "@/components/SkillCard.vue";
+import SocialLinks from "@/components/SocialLinks.vue";
 @Component({
+  components: {SocialLinks, SkillCard},
   metaInfo: {
     title: 'Home'
   }
