@@ -1,11 +1,19 @@
+<style scoped>
+.locale-desc {
+  align-items: center;
+  display: flex;
+}
+</style>
+
 <template>
   <div class="navbar-item has-dropdown is-hoverable">
-    <a class="navbar-link">
-      <FlagIcon :code="flags[currentLocale].key"/><span class="has-text-weight-bold pl-2"> {{ flags[currentLocale].label }}</span>
+    <a class="navbar-link locale-desc">
+      <CountryFlag :country="flags[currentLocale].key"/><strong>{{ flags[currentLocale].label }}</strong>
     </a>
     <div class="navbar-dropdown">
-      <a v-for="locale in availableLocales" class="navbar-item" :key="locale" @click="onSelect(locale)">
-        <FlagIcon :code="flags[locale].key"/><strong> {{flags[locale].label}}</strong>
+      <a v-for="locale in availableLocales" class="navbar-item locale-desc" :key="locale" @click="onSelect(locale)">
+        <CountryFlag :country="flags[locale].key"/>
+        <span>{{ flags[locale].label }}</span>
       </a>
     </div>
   </div>
@@ -23,12 +31,12 @@
 
 <script lang="ts">
 //@ts-nocheck
-import FlagIcon from "@/components/FlagIcon.vue";
+import CountryFlag from 'vue-country-flag'
 import {Component, Vue, Watch} from "vue-property-decorator";
 
 @Component({
   components: {
-    FlagIcon
+    CountryFlag
   }
 })
 export default class LocaleSwitcher extends Vue {
