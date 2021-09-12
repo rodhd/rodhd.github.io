@@ -5,5 +5,21 @@
   "languages": "Sprachen",
   "german": "Deutsch",
   "english": "Englisch",
-  "spanish": "Spanisch"
+  "spanish": "Spanisch",
+  "cv_title": "Lebenslauf",
+  "cv_experience": "Berufliche Erfahrung",
+  "omio_period": "Jul, 2021 - Heute",
+  "omio_description": "Product Owner und Full-Stack Entwicklung von unternehmenseigenem CRM und weitere Software-Tools.",
+  "bls_1_period": "Sep, 2018 - Jun, 2021",
+  "bls_1_description": "Product management und Daten Analyse für große europaische Suchmaschine für Fernbusse, Bahnen und Ridesharing, mit 11 Domains und Android / iOS mobile Apps.",
+  "bls_link": "https://www.busliniensuche.de/",
+  "bls_2_title": "Werkstudent",
+  "bls_2_period": "Jan 2017 - Aug, 2018",
+  "bls_2_description": "Operatives Product Management und Daten Analyse.",
+  "hiwi_title": "Studentische Hilfskraft",
+  "hiwi_institution": "Institut für Industriebetriebslehre und Industrielle Produktion (KIT)",
+  "hiwi_period": "Apr. 2016 - Aug. 2017",
+  "hiwi_description": "Weiterentwicklung eines MS Excel Erweiterung für Datenerfassung, unterstützung von Forschungsprojekten.",
+  "hiwi_link": "https://www.iip.kit.edu/index.php"
+  
 }

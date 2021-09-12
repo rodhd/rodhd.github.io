@@ -60,19 +60,19 @@
             <SkillCard
                 title="Data Science"
                 :icon="['fa', 'table']"
-                :content="['Bigquery', 'Python', 'Superset', 'Airflow']"/>
-          </div>
-          <div class="column is-12-mobile is-3">
-            <SkillCard
-              title="Frontend"
-              :icon="['fa', 'desktop']"
-              :content="['Vue.js', 'Typescript', 'Bulma', 'Figma']"/>
+                :content="['Bigquery', 'Python', 'SQL', 'Superset', 'Airflow']"/>
           </div>
           <div class="column is-12-mobile is-3">
             <SkillCard
                 title="Backend"
                 :icon="['fa', 'code']"
                 :content="['.NET/C#', 'MongoDB', 'Elasticsearch']"/>
+          </div>
+          <div class="column is-12-mobile is-3">
+            <SkillCard
+              title="Frontend"
+              :icon="['fa', 'desktop']"
+              :content="['Vue.js', 'Typescript', 'Bulma', 'Figma']"/>
           </div>
         </div>
         <div class="columns is-centered">

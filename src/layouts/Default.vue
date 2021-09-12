@@ -37,7 +37,6 @@
 
         <div class="navbar-menu" :class="{ 'is-active': isBurgerToggled }">
           <div class="navbar-end">
-            <a class="navbar-item" href="#about">About</a>
             <g-link class="navbar-item" to="/cv/">CV</g-link>
             <locale-switcher/>
           </div>
