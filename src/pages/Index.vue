@@ -3,6 +3,14 @@
   text-align: center;
   margin-top: 1em;
 }
+.profile-picture {
+  border-radius: 50%;
+}
+@media screen and (max-width: 765px) {
+  .profile-picture {
+    max-width: 30%;
+  }
+}
 </style>
 
 <template>
@@ -10,15 +18,22 @@
     <!-- Header -->
     <section class="hero is-primary is-halfheight is-fullheight-with-navbar">
       <div class="hero-body">
-        <div class="container">
-          Hello I'm
-          <h1 class="title is-1">
-            Rodrigo Herrera Diaz
-          </h1>
-          <h2 class="subtitle is-3">
-            Technical Program Manager @ 
-            <a href="https://www.omio.com/"><strong class="has-text-danger">omio</strong></a>
-          </h2>
+        <div class="columns is-vcentered">
+          <div class="column is-2">
+            <g-image src="../assets/Profile_Pic.jpg" class="profile-picture" alt="Profile picture"/>
+          </div>
+          <div class="column">
+            <div class="container">
+              Hello I'm
+              <h1 class="title is-1">
+                Rodrigo Herrera Diaz
+              </h1>
+              <h2 class="subtitle is-3">
+                Technical Program Manager @
+                <a href="https://www.omio.com/"><strong class="has-text-danger">omio</strong></a>
+              </h2>
+            </div>
+          </div>
         </div>
       </div>
     </section>
