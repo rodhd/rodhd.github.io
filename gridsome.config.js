@@ -32,6 +32,9 @@ module.exports = {
           'en-gb': require('./src/locales/en-gb.json'),
         }
       }
+    },
+    {
+      use: '@gridsome/plugin-sitemap'
     }
   ]
 }
