@@ -46,12 +46,13 @@
 </template>
 
 <script lang="ts">
+//@ts-nocheck
 import {Component, Vue} from "vue-property-decorator";
 import CvJobItem from "@/components/CvJobItem.vue";
 @Component({
   components: {CvJobItem},
   metaInfo: {
-    title: $t('cv_title')
+    title: 'CV'
   }
 })
 export default class Cv extends Vue {
