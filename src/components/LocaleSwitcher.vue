@@ -12,7 +12,6 @@
     </a>
     <div class="navbar-dropdown">
       <a v-for="locale in availableLocales" class="navbar-item locale-desc" :key="locale" @click="onSelect(locale)">
-        <CountryFlag :country="flags[locale].key"/>
         <span>{{ flags[locale].label }}</span>
       </a>
     </div>
@@ -42,11 +41,11 @@ export default class LocaleSwitcher extends Vue {
   availableLocales = this.$i18n.availableLocales;
   flags = {
     ["en-gb"]: {
-      "label": "EN",
+      "label": "🇬🇧 EN",
       "key": "gb"
     },
     ["de-de"]: {
-      "label": "DE",
+      "label": "🇩🇪 DE",
       "key": "de"
     }
   };

@@ -18,5 +18,10 @@ export default function (Vue, { router, head, isClient, appOptions }) {
   head.link.push({
     rel: 'stylesheet',
     href: 'https://fonts.googleapis.com/css?family=Open+Sans:300,400,700'
-  })
+  });
+
+  head.meta.push({
+    name: 'charset',
+    content: 'UTF-8'
+  });
 }

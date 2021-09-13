@@ -9031,11 +9031,6 @@ vue-class-component@^7.2.6:
   resolved "https://registry.yarnpkg.com/vue-class-component/-/vue-class-component-7.2.6.tgz#8471e037b8e4762f5a464686e19e5afc708502e4"
   integrity sha512-+eaQXVrAm/LldalI272PpDe3+i4mPis0ORiMYxF6Ae4hyuCh15W8Idet7wPUEs4N4YptgFHGys4UrgNQOMyO6w==
 
-vue-country-flag@^2.2.0:
-  version "2.2.0"
-  resolved "https://registry.yarnpkg.com/vue-country-flag/-/vue-country-flag-2.2.0.tgz#931c6b0acadee901468a8530378cd67c292dc7cd"
-  integrity sha512-Nn45mcy5uLWj2Lc0OWSwkUukKR4m2AOD0YlW+2eZ2qjB5nMCczZB75z8bQORaZ+yWEwrL2fS/e2SsP4CdYwgcg==
-
 vue-hot-reload-api@^2.3.0:
   version "2.3.4"
   resolved "https://registry.yarnpkg.com/vue-hot-reload-api/-/vue-hot-reload-api-2.3.4.tgz#532955cc1eb208a3d990b3a9f9a70574657e08f2"
