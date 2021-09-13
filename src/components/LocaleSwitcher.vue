@@ -8,7 +8,7 @@
 <template>
   <div class="navbar-item has-dropdown is-hoverable">
     <a class="navbar-link locale-desc">
-      <CountryFlag :country="flags[currentLocale].key"/><strong>{{ flags[currentLocale].label }}</strong>
+        <strong>{{ flags[currentLocale].label }}</strong>
     </a>
     <div class="navbar-dropdown">
       <a v-for="locale in availableLocales" class="navbar-item locale-desc" :key="locale" @click="onSelect(locale)">
@@ -31,12 +31,10 @@
 
 <script lang="ts">
 //@ts-nocheck
-import CountryFlag from 'vue-country-flag'
 import {Component, Vue, Watch} from "vue-property-decorator";
 
 @Component({
   components: {
-    CountryFlag
   }
 })
 export default class LocaleSwitcher extends Vue {

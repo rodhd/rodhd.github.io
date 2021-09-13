@@ -90,7 +90,7 @@
           </div>
           <div class="column is-12-mobile is-3">
             <SkillCard
-                title="Languages"
+                :title="$t('languages')"
                 :icon="['fa', 'globe']"
                 :content="[$t('english'), $t('german'), $t('spanish')]"/>
           </div>

@@ -1,6 +1,6 @@
 {
   "about": "Über mich",
-  "about_subtitle": "Produkt manager, SQL-Ninja, kompeteter Programmierer",
+  "about_subtitle": "Produkt manager, SQL-Ninja, kompetenter Programmierer",
   "about_text": "Ich bin Wirtschaftsingenieur und arbeite in der Softwareentwicklung mit über <strong>3 Jahren</strong> Erfahrung. Meine Leidenschaft ist die Kombination von Design, Daten und Technologie, um erstaunliche Produkte und Erlebnisse für Nutzer zu entwickeln.",
   "languages": "Sprachen",
   "german": "Deutsch",
@@ -11,7 +11,7 @@
   "omio_period": "Jul, 2021 - Heute",
   "omio_description": "Product Owner und Full-Stack Entwicklung von unternehmenseigenem CRM und weitere Software-Tools.",
   "bls_1_period": "Sep, 2018 - Jun, 2021",
-  "bls_1_description": "Product management und Daten Analyse für große europaische Suchmaschine für Fernbusse, Bahnen und Ridesharing, mit 11 Domains und Android / iOS mobile Apps.",
+  "bls_1_description": "Produktanagement und Datenanalyse für große europaische Suchmaschine für Fernbusse, Bahnen und Ridesharing, mit 11 Domains und Android / iOS mobile Apps.",
   "bls_link": "https://www.busliniensuche.de/",
   "bls_2_title": "Werkstudent",
   "bls_2_period": "Jan 2017 - Aug, 2018",
@@ -21,5 +21,4 @@
   "hiwi_period": "Apr. 2016 - Aug. 2017",
   "hiwi_description": "Weiterentwicklung eines MS Excel Erweiterung für Datenerfassung, unterstützung von Forschungsprojekten.",
   "hiwi_link": "https://www.iip.kit.edu/index.php"
-  
 }

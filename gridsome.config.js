@@ -6,7 +6,8 @@
 
 module.exports = {
   siteName: 'Rodrigo Herrera',
-  siteUrl: 'https://rodhd.github.io',
+  siteDescription: 'Personal Website of Rodrigo Herrera Diaz ',
+  siteUrl: 'https://rodrigo-herrera.info',
   plugins: [
     {
       use: 'gridsome-plugin-typescript'
@@ -27,8 +28,8 @@ module.exports = {
         enablePathRewrite: true, // rewrite path with locale prefix, default: true
         rewriteDefaultLanguage: true, // rewrite default locale, default: true
         messages: {
-          //'de-de': require('./src/locales/de-de.json'),
-          //'en-gb': require('./src/locales/en-gb.json'),
+          'de-de': require('./src/locales/de-de.json'),
+          'en-gb': require('./src/locales/en-gb.json'),
         }
       }
     }
