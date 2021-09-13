@@ -41,11 +41,11 @@ export default class LocaleSwitcher extends Vue {
   availableLocales = this.$i18n.availableLocales;
   flags = {
     ["en-gb"]: {
-      "label": "🇬🇧 EN",
+      "label": "🇬🇧 | EN",
       "key": "gb"
     },
     ["de-de"]: {
-      "label": "🇩🇪 DE",
+      "label": "🇩🇪 | DE",
       "key": "de"
     }
   };

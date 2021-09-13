@@ -49,7 +49,10 @@
 import {Component, Vue} from "vue-property-decorator";
 import CvJobItem from "@/components/CvJobItem.vue";
 @Component({
-  components: {CvJobItem}
+  components: {CvJobItem},
+  metaInfo: {
+    title: $t('cv_title')
+  }
 })
 export default class Cv extends Vue {
   
