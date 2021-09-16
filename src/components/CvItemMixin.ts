@@ -14,9 +14,9 @@ export default class CvItemMixin extends Vue{
     @Prop({type: String, required: true})
     location!: string;
 
-    @Prop({type: String, required: true})
+    @Prop({type: String})
     description!: string;
 
-    @Prop({type: Array, required: true})
+    @Prop({type: Array})
     tags!: string;
 }

@@ -35,7 +35,7 @@ import {Component, Mixins, Prop, Vue} from "vue-property-decorator";
 import CvItemMixin from "@/components/CvItemMixin";
 
 @Component
-export default class CvJobItem extends Mixins(CvItemMixin){
+export default class CvExperienceItem extends Mixins(CvItemMixin){
   @Prop(String)
   href!: string;
 }

@@ -20,5 +20,16 @@
   "hiwi_institution": "Institut für Industriebetriebslehre und Industrielle Produktion (KIT)",
   "hiwi_period": "Apr. 2016 - Aug. 2017",
   "hiwi_description": "Weiterentwicklung eines MS Excel Erweiterung für Datenerfassung, unterstützung von Forschungsprojekten.",
-  "hiwi_link": "https://www.iip.kit.edu/index.php"
+  "hiwi_link": "https://www.iip.kit.edu/index.php",
+  "cv_education": "Ausbildung",
+  "kit_title": "Wirtschaftsingenieurwesen (B.Sc.)",
+  "kit_institution": "Karlsruher Institut für Technologie (KIT)",
+  "kit_period": "Sep. 2014 - Aug. 2018",
+  "kit_description": "Schwerpunkte: Statistik und Logistik; Abschlussarbeit: Erstellung und Bewertung eines Mensch-Roboter-Kollaborations Konzeptes für die Montage von Batteriemodulen",
+  "usb_title": "Produktionstechnik",
+  "usb_institution": "Simón Bolívar Universität (USB)",
+  "usb_period": "Sep. 2010 - Aug. 2014",
+  "la_title": "Sekundarschulabschluss",
+  "la_institution": "U.E. Colegio Los Arcos",
+  "la_period": "Sep. 1999 - Jul. 2010"
 }

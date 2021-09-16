@@ -20,5 +20,16 @@
   "hiwi_institution": "Institute for Industrial Production (KIT)",
   "hiwi_period": "Abr. 2016 - Aug. 2017",
   "hiwi_description": "Development of data gathering MS Excel extension and support of research projects.",
-  "hiwi_link": "https://www.iip.kit.edu/english/index.php"
+  "hiwi_link": "https://www.iip.kit.edu/english/index.php",
+  "cv_education": "Education",
+  "kit_title": "Industrial Engineering and Management (B.Sc.)",
+  "kit_institution": "Karlsruhe Institute of Technology (KIT)",
+  "kit_period": "Sep. 2014 - Aug. 2018",
+  "kit_description": "Main focus: Statistics and Logistics; Thesis: Design and Evaluation of a Human-Robot-Collaboration Concept for the Montage of Battery Modules",
+  "usb_title": "Production Engineering",
+  "usb_institution": "Simón Bolívar University (USB)",
+  "usb_period": "Sep. 2010 - Aug. 2014",
+  "la_title": "High School Degree",
+  "la_institution": "U.E. Colegio Los Arcos",
+  "la_period": "Sep. 1999 - Jul. 2010"
 }
