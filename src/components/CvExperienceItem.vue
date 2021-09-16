@@ -3,7 +3,8 @@
     <h3 class="title is-4">{{title}}</h3>
     <h4 class="title is-5">
       <font-awesome-icon :icon="['fa', 'building']"/>
-      <a class="pl-2 has-text-black" :href="href">{{ institution }}</a>
+      <a class="pl-2 pr-2 has-text-black" :href="href">{{ institution }}</a>
+      <font-awesome-icon v-if="!!href" size="xs" :icon="['fa', 'external-link-alt']"/>
     </h4>
     <p class="pb-3">
       {{description}}
