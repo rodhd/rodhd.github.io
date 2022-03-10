@@ -58,21 +58,21 @@
         <div class="columns is-centered">
           <div class="column is-12-mobile is-3">
             <SkillCard
-                title="Data Science"
+                :title="$t('management')"
+                :icon="['fa', 'briefcase']"
+                :content="['Agile', 'Kanban', 'Scrum', 'Product Management', 'Hypothesis Driven Development', 'Design Thinking']"/>
+          </div>
+          <div class="column is-12-mobile is-3">
+            <SkillCard
+                :title="$t('data-analysis')"
                 :icon="['fa', 'table']"
-                :content="['Bigquery', 'Python', 'SQL', 'Superset', 'Airflow']"/>
+                :content="['Bigquery', 'Python', 'SQL', 'MS Excel/Google Sheets', 'Superset', 'Tableau']"/>
           </div>
           <div class="column is-12-mobile is-3">
             <SkillCard
-                title="Backend"
-                :icon="['fa', 'code']"
-                :content="['.NET/C#', 'MongoDB', 'Elasticsearch']"/>
-          </div>
-          <div class="column is-12-mobile is-3">
-            <SkillCard
-              title="Frontend"
-              :icon="['fa', 'desktop']"
-              :content="['Vue.js', 'Typescript', 'Bulma', 'Figma']"/>
+              :title="$t('software-development')"
+              :icon="['fa', 'code']"
+              :content="['.NET/C#', 'Vue.js', 'Typescript', 'Python', 'MongoDB', 'Rider / Webstorm / Pycharm', 'VSCode', 'Git']"/>
           </div>
         </div>
         <div class="columns is-centered">
@@ -80,13 +80,13 @@
             <SkillCard
                 title="Cloud"
                 :icon="['fa', 'cloud']"
-                :content="['GCP', 'Docker', 'Serverless']"/>
+                :content="['GCP', 'Docker', 'Cloud Run', 'Kubernetes', 'Serverless']"/>
           </div>
           <div class="column is-12-mobile is-3">
             <SkillCard
                 title="Software"
                 :icon="['fa', 'list-alt']"
-                :content="['Excel', 'G-Suite', 'Jira', 'Confluence']"/>
+                :content="['MS Office', 'G-Suite', 'Jira', 'Confluence', 'Figma', 'Adobe XD']"/>
           </div>
           <div class="column is-12-mobile is-3">
             <SkillCard

@@ -1,6 +1,6 @@
 {
   "about": "Über mich",
-  "about_subtitle": "Produkt manager, SQL-Ninja, kompetenter Programmierer",
+  "about_subtitle": "Product Manager, SQL-Ninja, kompetenter Programmierer",
   "about_text": "Ich bin Wirtschaftsingenieur und arbeite in der Softwareentwicklung mit über <strong>3 Jahren</strong> Erfahrung. Meine Leidenschaft ist die Kombination von Design, Daten und Technologie, um erstaunliche Produkte und Erlebnisse für Nutzer zu entwickeln.",
   "languages": "Sprachen",
   "german": "Deutsch",
@@ -31,5 +31,8 @@
   "usb_period": "Sep. 2010 - Aug. 2014",
   "la_title": "Sekundarschulabschluss",
   "la_institution": "U.E. Colegio Los Arcos",
-  "la_period": "Sep. 1999 - Jul. 2010"
+  "la_period": "Sep. 1999 - Jul. 2010",
+  "software-development": "Software-Entwicklung",
+  "data-analysis": "Datenanalyse",
+  "management": "Management / Organization"
 }
