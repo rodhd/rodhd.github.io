@@ -29,8 +29,8 @@
                 Rodrigo Herrera Diaz
               </h1>
               <h2 class="subtitle is-3">
-                Technical Program Manager @
-                <a href="https://www.omio.com/"><strong class="has-text-danger">omio</strong></a>
+                Product Manager @
+                <a href="https://www.workwise.io/"><strong class="has-text-danger">workwise</strong></a>
               </h2>
             </div>
           </div>

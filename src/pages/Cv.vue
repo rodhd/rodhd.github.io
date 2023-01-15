@@ -5,6 +5,15 @@
       <section class="section" id="experience">
         <h2 class="title is-3">💼 {{$t('cv_experience')}}</h2>
         <CvExperienceItem
+          title="Product Manager"
+          institution="Workwise GmbH"
+          location="Karlsruhe, DE"
+          :period="$t('workwise_period')"
+          :description="$t('workwise_description')"
+          :tags="['Product Management', 'Agile', 'Continuous Discovery']"
+          href="https://www.omio.com/"
+        />
+        <CvExperienceItem
           title="Technical Program Manager"
           institution="Omio Travel GmbH"
           location="Berlin, DE"
