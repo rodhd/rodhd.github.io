@@ -5,6 +5,7 @@ import tailwind from "@astrojs/tailwind";
 
 // https://astro.build/config
 export default defineConfig({
+  site: 'https://rodrigo-herrera.info',
   integrations: [react(), tailwind({
     applyBaseStyles: false,
   }),]
