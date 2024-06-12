@@ -1,0 +1,11 @@
+{
+  "name": "rodhd.github.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/rodhd/rodhd.github.io.git",
+  "author": "Rodrigo H <46557955+rodhd@users.noreply.github.com>",
+  "license": "MIT",
+  "dependencies": {
+    "astro": "^4.10.2"
+  }
+}
