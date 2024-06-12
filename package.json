@@ -6,6 +6,22 @@
   "author": "Rodrigo H <46557955+rodhd@users.noreply.github.com>",
   "license": "MIT",
   "dependencies": {
-    "astro": "^4.10.2"
+    "@astrojs/react": "3.5.0",
+    "@astrojs/tailwind": "^5.1.0",
+    "astro": "^4.10.2",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.394.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "tailwind-merge": "^2.3.0",
+    "tailwindcss": "^3.4.4",
+    "tailwindcss-animate": "^1.0.7"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
   }
 }
