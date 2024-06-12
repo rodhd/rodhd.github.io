@@ -1,0 +1,13 @@
+---
+import { Image } from 'astro:assets';
+import profilePicture from '../assets/DSC05147.jpg';
+
+const title = 'Rodrigo Herrera Diaz';
+const subtitle = 'Product Manager | Software Enthusiast';
+---
+
+<section class="flex flex-col items-center justify-center text-center py-20 bg-primary">
+  <Image src={profilePicture} alt="Profile Picture" class="w-56 h-56 rounded-full border-4 border-gray-300 object-cover object-bottom" />
+  <h1 class="text-4xl text-gray-100 font-bold mt-6">{title}</h1>
+  <p class="text-lg text-gray-300 mt-2">{subtitle}</p>
+</section>
